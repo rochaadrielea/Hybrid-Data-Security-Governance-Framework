@@ -1,0 +1,15 @@
+Switches **from Access Policies → RBAC model**, which:
+- Is more flexible
+- Integrates better with Terraform, ADF, Synapse, AKS
+
+---
+
+## ✅ Summary: Why You're Creating It 
+
+- It's foundational: every secure system needs a secrets manager  
+- Later modules (Storage, Synapse, ADF, AKS) will **depend on it**  IMPORTANT
+- You'll **store sensitive data** like passwords, keys, and connection strings here 
+- You'll **add secrets and keys to it dynamically or manually**, e.g.:
+
+```bash
+az keyvault secret set --vault-name kv-securebridge --name "synapse-sql-auth" --value "<password>"
