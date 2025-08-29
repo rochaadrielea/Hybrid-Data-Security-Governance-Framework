@@ -1,4 +1,5 @@
-A **production-grade hybrid cloud security and governance project** built with **Azure + Terraform**.  
+A **hybrid cloud security and governance project** built with **SSMS + Azure + Terraform**.  
+
 This project demonstrates how to design and deploy a **secure-by-design hybrid architecture** by integrating **on-premises Microsoft SQL Server (with Always Encrypted & Transparent Data Encryption)** with **Azure data services**, while ensuring **GDPR/FADP compliance**, **data lineage**, and **end-to-end security controls**.
 
 
